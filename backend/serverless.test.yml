@@ -1,0 +1,15 @@
+- name: test get Todos function returns 200
+  endpoint: { function: GetTodos }
+  request:
+    headers: # An object mapping to be used as headers on the request
+      Authorization: 'Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IjdITmh3dElSdV85NGdmMkZoNUlFNiJ9.eyJpc3MiOiJodHRwczovL2Rldi00NzlwYXR6aS5ldS5hdXRoMC5jb20vIiwic3ViIjoiZ29vZ2xlLW9hdXRoMnwxMTc4NTMwNDI1MDY4NzQ4Nzk2MjYiLCJhdWQiOiJ3NUxsVUdTaHBHdGJGVjdDTFlLQ3B6NW5ZMnhPenozZSIsImlhdCI6MTU5Mjk1NjMwMSwiZXhwIjoxNTkyOTkyMzAxLCJhdF9oYXNoIjoiVjlyOGp0dzNtcVZBMndZZkJuaDh0ZyIsIm5vbmNlIjoiVmFnRjcxOFQ1ZjV4QVJSSEpja1Y0ZFRGdDRhRDd5b0MifQ.HOsvGqMbzSZZbPwMSAqis_sUOpgrSbpmVlY0n4Xt9QcN93SW3D_VwaWL4_UUj9AtBwMlLqxooesUmlLw7XqWt-xpgFKnobIRRbEs9JOIUOp5PHBHDkjveKsZm7fgcjaGhr5w96cnXnYqZCmJBgMUseaxS10MILGl9Okc6OzNUXYWabFolbVcFAPLTu_awwkE1Y7WLT4aBQo_kFKSE4I_wC6IY0Dggs1lFN2THQ4Mmia8NbmeQOCB29Pu6mxzGhPzZmn4TZFGz7z8XW6vuVoNJ3Vd8c8Wr7VeIwh7hn-xrk00JeQAOo2qBVlyBmnv7PFShKn_DU1L7e3wscUiXCUAmw'
+  response:
+    status: 200
+# - name: create a todo and returns 200
+#   endpoint: { function: CreateTodo }
+#   request:
+#     headers: # An object mapping to be used as headers on the request
+#       Authorization: 'Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IjdITmh3dElSdV85NGdmMkZoNUlFNiJ9.eyJpc3MiOiJodHRwczovL2Rldi00NzlwYXR6aS5ldS5hdXRoMC5jb20vIiwic3ViIjoiZ29vZ2xlLW9hdXRoMnwxMTc4NTMwNDI1MDY4NzQ4Nzk2MjYiLCJhdWQiOiJ3NUxsVUdTaHBHdGJGVjdDTFlLQ3B6NW5ZMnhPenozZSIsImlhdCI6MTU5Mjk1NjMwMSwiZXhwIjoxNTkyOTkyMzAxLCJhdF9oYXNoIjoiVjlyOGp0dzNtcVZBMndZZkJuaDh0ZyIsIm5vbmNlIjoiVmFnRjcxOFQ1ZjV4QVJSSEpja1Y0ZFRGdDRhRDd5b0MifQ.HOsvGqMbzSZZbPwMSAqis_sUOpgrSbpmVlY0n4Xt9QcN93SW3D_VwaWL4_UUj9AtBwMlLqxooesUmlLw7XqWt-xpgFKnobIRRbEs9JOIUOp5PHBHDkjveKsZm7fgcjaGhr5w96cnXnYqZCmJBgMUseaxS10MILGl9Okc6OzNUXYWabFolbVcFAPLTu_awwkE1Y7WLT4aBQo_kFKSE4I_wC6IY0Dggs1lFN2THQ4Mmia8NbmeQOCB29Pu6mxzGhPzZmn4TZFGz7z8XW6vuVoNJ3Vd8c8Wr7VeIwh7hn-xrk00JeQAOo2qBVlyBmnv7PFShKn_DU1L7e3wscUiXCUAmw'
+#     body: '[{ "name": "Water flowers 2", "dueDate": "2019-06-11" }]'
+#   response:
+#     status: 200
