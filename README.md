@@ -52,6 +52,12 @@ npm install
 sls deploy -v
 ```
 
+You can also run integration tests with
+
+```
+sls test
+```
+
 ## Frontend
 
 To run a client application first edit the `client/src/config.ts` file to set correct parameters. And then run the following commands:
