@@ -22,7 +22,7 @@
     "@types/jest": "^26.0.0",
     "@types/jsonwebtoken": "^8.5.0",
     "@types/node": "^10.17.24",
-    "aws-sdk": "^2.690.0",
+    "aws-sdk": "^2.814.0",
     "babel-jest": "^26.0.1",
     "jest": "^26.0.1",
     "serverless-aws-documentation": "^1.1.0",
